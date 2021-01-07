@@ -13,3 +13,4 @@ APIs Documentation :
 2. /api/signin - login route 
 3. / - home 
 4. /publish - to create a new article (auth required)
+
