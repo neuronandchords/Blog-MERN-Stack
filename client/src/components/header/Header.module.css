@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  height: 56px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.header nav a {
+  text-transform: uppercase;
+  margin: 5px;
+}

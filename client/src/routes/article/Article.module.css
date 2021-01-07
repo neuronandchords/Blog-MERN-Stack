@@ -1,0 +1,25 @@
+.article {
+  min-height: 75vh;
+}
+
+.markdown {
+  margin-top: 3rem;
+  height: 100%;
+}
+
+.buttons {
+  display: flex;
+  width: 110px;
+  flex-direction: column;
+}
+
+.linkButton {
+  width: 100%;
+}
+
+.controlHeader {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
