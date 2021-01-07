@@ -14,3 +14,5 @@ APIs Documentation :
 3. / - home 
 4. /publish - to create a new article (auth required)
 
+![alt text](https://github.com/neuronandchords/Blog-MERN-Stack/blob/main/Working_proof.png?raw=true)
+
