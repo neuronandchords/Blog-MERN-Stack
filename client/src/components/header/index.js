@@ -30,9 +30,9 @@ const Header = ({ history }) => {
 
   return (
     <header className={Style.header}>
-      <h1>Rhodlib</h1>
+      <h1>Blog-MERN</h1>
       <nav>
-        <Link to="/">blog</Link>
+        <Link to="/">ALL BLOGS</Link>
         {loginLogout()}
       </nav>
     </header>

@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
-import { Route, Switch, Redirect, __RouterContext } from "react-router-dom";
+import { Route, Switch, Redirect } from "react-router-dom";
+import { __RouterContext} from "react-router";
 import { useTransition, animated } from "react-spring";
 import Layout from "./components/layout/index";
 import Home from "./routes/home/index";
@@ -32,6 +33,7 @@ const App = () => {
               <Route path="/article/:postId" component={Article} />
               <Route path="/edit/:slug" component={NewArticle} />
               <Route path="/new/article" component={NewArticle} />
+              <Route path="/publish" component={NewArticle} />
               <Redirect to="/" />
             </Switch>
           </animated.div>
